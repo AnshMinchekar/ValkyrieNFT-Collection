@@ -1,0 +1,52 @@
+RoadToWeb3 Week1
+
+Agenda:
+Introduction to smart contracts and their development.
+Writing a smart contract.
+How to acquire free test ETH.
+Introduction to Alchemy
+Deployment to Blockchain
+Interacting with NFTs on Open Sea
+
+A smart contract is a piece of software that runs on a decentralized network of nodes.
+
+Requirements to develop a smart contract:
+Solidity (for Ethereum Virtual Machine or EVM Compatible machines) or Rust (in case of Solana)
+A node - Alchemy (A node is needed every time you want to deploy a smart contract.)
+A developer environment. (Example - RemixIDE)
+Cryptocurrency to pay the gas fees.
+
+Gas fee needs to be paid in order to perform any operations on the Blockchain.
+
+OpenZeppelin is essentially a repository/maintainer of secure smart contract standards.
+
+ERC20 is the cryptocurrency standard for a cryptocurrency token.
+
+ERC721 is the NFT Standard (The one that we’ll be using for this project.)
+
+ERC1155 is the standard for inventories, games, etc. Allows you to store ERC20 and ERC721 tokens. 
+
+ERC721 Documentation: https://docs.openzeppelin.com/contracts/4.x/api/token/erc721
+
+Auto Increment Ids adds a library(Counters.sol) to provide each NFT with a unique ID and keep a track of it. 
+
+Enumerable allows us to check the balance of an account, i.e. how many NFTs the account has.
+
+URI Storage enables access to the metadata for the NFT.
+
+Orange Methods are writing on the Blockchain while Blue Methods are reading from the Blockchain.
+
+Links:
+OpenZeppelin Wizard: https://docs.openzeppelin.com/contracts/4.x/wizard
+RemixIDE:https://remix.ethereum.org
+Alchemy: https://www.alchemy.com
+Faucet: https://rinkebyfaucet.com
+Filebase: https://filebase.com
+OpenSeas Metadata Standards: https://docs.opensea.io/docs/metadata-standards
+
+
+
+
+
+
+
